@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="text-input">
+                <textarea class="from-text" cols="30" rows="10" placeholder="Enter the text"></textarea>
+                <textarea class="to-text" cols="30" rows="10" placeholder="Tranlation" readonly disabled></textarea>
+            </div>
+            <div class="controls">
+                <li class="row from">
+                    <div class="icons">
+                        <i class="fas fa-volume-down">
+                            <img id="from"  class="speech" src="./img/volume-high.svg" alt="">
+                        </i>
+                        <i class="fas fa-copy">
+                            <img id="from" class="copy" src="./img/copy-regular.svg" alt="">
+                        </i>
+                    </div>
+                    <select>
+                      
+                    </select>
+                </li>
+                <li class="exchange"><i class="fa-solid fa-right-left"><img src="./img/right-left-solid.svg" alt=""></i></li>
+                <li class="row to">
+                    <div class="icons">
+                        <i class="fas fa-volume-down">
+                            <img id="to"  class="speech" src="./img/volume-high.svg" alt="">
+                        </i>
+                        <i class="fas fa-copy">
+                            <img id="to" class="copy" src="./img/copy-regular.svg" alt="">
+                        </i>
+                    </div>
+                    <select>
+                        
+                    </select>
+                </li>
+            </div>
+        </div>
+        <button>Translate text</button>
+    </div>
+
+
+
+
+    <script src="./countries.js"></script>
+    <script src="./script.js"></script>
+    <!-- <script src="https://kit.fontaewsome.com/bd96bd47a.js" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
